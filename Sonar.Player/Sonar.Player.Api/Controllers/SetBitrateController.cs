@@ -35,12 +35,12 @@ public class SetBitrateController : Controller
                 new SetBitrate.Command(
                     token,
                     trackId,
-                    form.Name, 
+                    form.Name,
                     new SetBitrate.Command.TrackFile(
-                        form.File.FileName, 
+                        form.File.FileName,
                         fileStream),
-                    (int) BitrateEnum.LowBitrate
-                ), cancellationToken));
+                    (int)BitrateEnum.LowBitrate),
+                cancellationToken));
     }
 
     [HttpPatch("mediumBitrate")]
@@ -56,14 +56,14 @@ public class SetBitrateController : Controller
                 new SetBitrate.Command(
                     token,
                     trackId,
-                    form.Name, 
+                    form.Name,
                     new SetBitrate.Command.TrackFile(
-                        form.File.FileName, 
+                        form.File.FileName,
                         fileStream),
-                    (int) BitrateEnum.MediumBitrate
-                ), cancellationToken));
+                    (int)BitrateEnum.MediumBitrate),
+                cancellationToken));
     }
-    
+
     [HttpPatch("highBitrate")]
     public async Task<ActionResult<SetBitrate.Response>> SetHighAsync(
         [FromHeader(Name = "Token")] string token,
@@ -77,11 +77,11 @@ public class SetBitrateController : Controller
                 new SetBitrate.Command(
                     token,
                     trackId,
-                    form.Name, 
+                    form.Name,
                     new SetBitrate.Command.TrackFile(
-                        form.File.FileName, 
+                        form.File.FileName,
                         fileStream),
-                    (int) BitrateEnum.HighBitrate
-                ), cancellationToken));
+                    (int)BitrateEnum.HighBitrate),
+                cancellationToken));
     }
 }

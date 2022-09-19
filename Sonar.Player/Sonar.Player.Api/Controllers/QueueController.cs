@@ -17,7 +17,7 @@ public class QueueController : Controller
     private readonly IUserService _userService;
 
     /// <summary>
-    /// Constructor lol
+    /// Constructs controller using MediatR and User services
     /// </summary>
     /// <param name="mediator">Standard MediatR interface to interact with application layer</param>
     /// <param name="userService">Interface to get authorized users</param>

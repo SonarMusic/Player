@@ -18,7 +18,7 @@ public class FilesController : Controller
     private readonly IUserService _userService;
 
     /// <summary>
-    /// Constructor lol
+    /// Constructs controller using MediatR and User services 
     /// </summary>
     /// <param name="mediator">Standard MediatR interface to interact with application layer</param>
     /// <param name="userService">Interface to get authorized users</param>
@@ -32,7 +32,7 @@ public class FilesController : Controller
     /// Add track to service in user's profile
     /// </summary>
     /// <param name="token">Token to specify and verify user</param>
-    /// <param name="form"></param>
+    /// <param name="form">Dto to carry name and file to upload</param>
     /// <param name="cancellationToken">CancellationToken to observe while waiting for the task to complete</param>
     /// <returns>Identification descriptor for added track</returns>
     [HttpPost("track")]

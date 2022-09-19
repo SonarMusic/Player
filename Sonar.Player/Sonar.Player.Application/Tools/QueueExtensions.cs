@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Sonar.Player.Data;
 using Sonar.Player.Domain.Entities;
 using Sonar.Player.Domain.Models;

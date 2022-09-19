@@ -1,6 +1,4 @@
-﻿using Sonar.Player.Domain.Models;
-
-namespace Sonar.Player.Domain.Entities;
+﻿namespace Sonar.Player.Domain.Entities;
 
 public class UserPlayerContext
 {

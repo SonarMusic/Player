@@ -1,8 +1,6 @@
 ﻿using MediatR;
 using Sonar.Player.Application.Tools;
-using Sonar.Player.Application.Tools.Exceptions;
 using Sonar.Player.Data;
-using Sonar.Player.Domain.Entities;
 using Sonar.Player.Domain.Models;
 using Sonar.UserTracksManagement.ApiClient;
 

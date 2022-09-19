@@ -1,6 +1,5 @@
 ﻿using Sonar.Player.Application.Tools.Exceptions;
 using Sonar.Player.Domain.Models;
-using Sonar.UserProfile.ApiClient;
 using Sonar.UserProfile.ApiClient.Interfaces;
 using Sonar.UserTracksManagement.ApiClient;
 

@@ -1,6 +1,6 @@
 [submodule "Sonar.UserProfile"]
 	path = Sonar.UserProfile
-	url = https://github.com/is-tech-y24-1/team-4-1.git
+	url = https://github.com/SonarMusic/UserProfile
 [submodule "Sonar.UserTracksManagment"]
 	path = Sonar.UserTracksManagment
-	url = https://github.com/is-tech-y24-1/team-4-2.git
+	url = https://github.com/SonarMusic/UserTrackManagement
